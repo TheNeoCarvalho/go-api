@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	database.StartDb()
+	database.StartDB()
 	server := server.NewServer()
 
 	server.Run()
